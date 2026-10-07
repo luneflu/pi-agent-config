@@ -13,5 +13,35 @@
   ],
   "extensions": [
     "-builtin:mcp"
-  ]
+  ],
+  "subagents": {
+    "agentOverrides": {
+      "scout": {
+        "model": "9router/ag/gemini-3.8-flash-low"
+      },
+      "researcher": {
+        "model": "9router/ag/gemini-3.8-flash-medium"
+      },
+      "delegate": {
+        "model": "9router/cc/claude-sonnet-5-5",
+        "thinking": "low"
+      },
+      "worker": {
+        "model": "9router/cc/claude-sonnet-5-5",
+        "thinking": "medium"
+      },
+      "evidence-auditor": {
+        "model": "9router/cc/claude-sonnet-5-5",
+        "thinking": "medium"
+      },
+      "reviewer": {
+        "model": "9router/cc/claude-sonnet-5-5",
+        "thinking": "high"
+      },
+      "oracle": {
+        "model": "9router/cc/claude-opus-5-5",
+        "thinking": "high"
+      }
+    }
+  }
 }
