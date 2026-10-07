@@ -1,0 +1,17 @@
+{
+  "packages": [
+    "npm:pi-models-discovery",
+    "npm:pi-blackhole",
+    "npm:pi-mcp-adapter",
+    "npm:pi-web-access",
+    "npm:pi-subagents",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:pi-fff",
+    "npm:pi-undo-redo",
+    "npm:pi-capitals-context",
+    "npm:pi-config-sync"
+  ],
+  "extensions": [
+    "-builtin:mcp"
+  ]
+}

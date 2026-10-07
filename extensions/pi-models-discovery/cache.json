@@ -1,0 +1,635 @@
+{
+  "version": 1,
+  "providers": {
+    "9router": {
+      "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
+      "fetchedAt": "2026-10-07T18:38:00.228Z",
+      "models": [
+        {
+          "id": "ag/gemini-3.8-flash-high",
+          "name": "ag/gemini-3.8-flash-high",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/gemini-3.8-flash-medium",
+          "name": "ag/gemini-3.8-flash-medium",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/gemini-3.8-flash-low",
+          "name": "ag/gemini-3.8-flash-low",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/gemini-3.7-flash-high",
+          "name": "ag/gemini-3.7-flash-high",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/gemini-3.7-flash-medium",
+          "name": "ag/gemini-3.7-flash-medium",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/gemini-3.7-flash-low",
+          "name": "ag/gemini-3.7-flash-low",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-opus-5-5-high",
+          "name": "ag/claude-opus-5-5-high",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-opus-5-5-low",
+          "name": "ag/claude-opus-5-5-low",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-opus-5-5-medium",
+          "name": "ag/claude-opus-5-5-medium",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-sonnet-5-5-low",
+          "name": "ag/claude-sonnet-5-5-low",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-sonnet-5-5-medium",
+          "name": "ag/claude-sonnet-5-5-medium",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-sonnet-5-5-high",
+          "name": "ag/claude-sonnet-5-5-high",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "cbai/gpt-6-astra",
+          "name": "cbai/gpt-6-astra",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "omnirush/gpt-6-astra",
+          "name": "omnirush/gpt-6-astra",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "omnirush/gpt-6-sol",
+          "name": "omnirush/gpt-6-sol",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "omnirush/gpt-5.6-sol",
+          "name": "omnirush/gpt-5.6-sol",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "omnirush/meta-muse-spark",
+          "name": "omnirush/meta-muse-spark",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "omnirush/muse-spark-1.1",
+          "name": "omnirush/muse-spark-1.1",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "onomeo/glm-5.2",
+          "name": "onomeo/glm-5.2",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "cc/claude-opus-5-5",
+          "name": "cc/claude-opus-5-5",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "cc/claude-sonnet-5-5",
+          "name": "cc/claude-sonnet-5-5",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "cc/claude-opus-4-8",
+          "name": "cc/claude-opus-4-8",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ocz/muse-spark-1.3-contributor-free",
+          "name": "ocz/muse-spark-1.3-contributor-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ocz/jev-1.13",
+          "name": "ocz/jev-1.13",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ocz/jev-1.13-free",
+          "name": "ocz/jev-1.13-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ocz/space-bunny-free",
+          "name": "ocz/space-bunny-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        }
+      ]
+    }
+  }
+}
