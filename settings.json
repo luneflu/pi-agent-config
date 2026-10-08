@@ -10,7 +10,8 @@
     "npm:pi-undo-redo",
     "npm:pi-config-sync",
     "npm:@yuritoledo/vibe-wise-pi",
-    "npm:pi-paster"
+    "npm:pi-paster",
+    "npm:pi-multiagent"
   ],
   "extensions": [
     "-builtin:mcp"
