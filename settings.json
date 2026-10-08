@@ -9,7 +9,8 @@
     "npm:pi-fff",
     "npm:pi-undo-redo",
     "npm:pi-config-sync",
-    "npm:@yuritoledo/vibe-wise-pi"
+    "npm:@yuritoledo/vibe-wise-pi",
+    "npm:pi-paster"
   ],
   "extensions": [
     "-builtin:mcp"
