@@ -9,7 +9,8 @@
     "npm:pi-fff",
     "npm:pi-undo-redo",
     "npm:pi-capitals-context",
-    "npm:pi-config-sync"
+    "npm:pi-config-sync",
+    "npm:pi-claude-marketplace"
   ],
   "extensions": [
     "-builtin:mcp"
