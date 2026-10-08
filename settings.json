@@ -9,7 +9,7 @@
     "npm:pi-fff",
     "npm:pi-undo-redo",
     "npm:pi-config-sync",
-    "npm:pi-claude-marketplace"
+    "npm:@yuritoledo/vibe-wise-pi"
   ],
   "extensions": [
     "-builtin:mcp"
