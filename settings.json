@@ -8,7 +8,6 @@
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:pi-fff",
     "npm:pi-undo-redo",
-    "npm:pi-capitals-context",
     "npm:pi-config-sync",
     "npm:pi-claude-marketplace"
   ],
