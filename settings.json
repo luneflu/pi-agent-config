@@ -11,7 +11,8 @@
     "npm:pi-config-sync",
     "npm:@yuritoledo/vibe-wise-pi",
     "npm:pi-paster",
-    "npm:pi-multiagent"
+    "npm:pi-multiagent",
+    "npm:@the-agency/pi-tokenshrink"
   ],
   "extensions": [
     "-builtin:mcp"
