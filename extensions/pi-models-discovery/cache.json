@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-09T01:10:50.075Z",
+      "fetchedAt": "2026-10-09T01:18:58.522Z",
       "models": [
         {
           "id": "ag/gemini-3.8-flash-high",
@@ -150,8 +150,8 @@
           }
         },
         {
-          "id": "ag/claude-opus-5-5-high",
-          "name": "ag/claude-opus-5-5-high",
+          "id": "ag/gemini-3.1-pro-high",
+          "name": "ag/gemini-3.1-pro-high",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -174,56 +174,8 @@
           }
         },
         {
-          "id": "ag/claude-opus-5-5-low",
-          "name": "ag/claude-opus-5-5-low",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "ag/claude-opus-5-5-medium",
-          "name": "ag/claude-opus-5-5-medium",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "ag/claude-sonnet-5-5-low",
-          "name": "ag/claude-sonnet-5-5-low",
+          "id": "ag/claude-sonnet-5-5-high",
+          "name": "ag/claude-sonnet-5-5-high",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -270,8 +222,128 @@
           }
         },
         {
-          "id": "ag/claude-sonnet-5-5-high",
-          "name": "ag/claude-sonnet-5-5-high",
+          "id": "ag/claude-sonnet-5-5-low",
+          "name": "ag/claude-sonnet-5-5-low",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-sonnet-5-5",
+          "name": "ag/claude-sonnet-5-5",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-opus-5-5-high",
+          "name": "ag/claude-opus-5-5-high",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-opus-5-5-medium",
+          "name": "ag/claude-opus-5-5-medium",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-opus-5-5-low",
+          "name": "ag/claude-opus-5-5-low",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "ag/claude-opus-5-5",
+          "name": "ag/claude-opus-5-5",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
