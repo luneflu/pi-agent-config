@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-11T02:44:19.844Z",
+      "fetchedAt": "2026-10-11T08:08:26.421Z",
       "models": [
         {
           "id": "ag/gemini-3.8-flash-high",
