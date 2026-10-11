@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-11T10:14:31.057Z",
+      "fetchedAt": "2026-10-11T10:16:15.324Z",
       "models": [
         {
           "id": "ag/gemini-3.8-flash-high",
@@ -678,54 +678,6 @@
           }
         },
         {
-          "id": "dsweb/deepseek-chat-search",
-          "name": "dsweb/deepseek-chat-search",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "dsweb/deepseek-reasoner-search",
-          "name": "dsweb/deepseek-reasoner-search",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
           "id": "dsweb/deepseek-chat",
           "name": "dsweb/deepseek-chat",
           "reasoning": true,
@@ -752,6 +704,54 @@
         {
           "id": "dsweb/deepseek-reasoner",
           "name": "dsweb/deepseek-reasoner",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "dsweb/deepseek-chat-search",
+          "name": "dsweb/deepseek-chat-search",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "dsweb/deepseek-reasoner-search",
+          "name": "dsweb/deepseek-reasoner-search",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
