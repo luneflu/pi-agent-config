@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-13T15:14:02.570Z",
+      "fetchedAt": "2026-10-14T06:39:43.573Z",
       "models": [
         {
           "id": "ag/gemini-3.8-flash-high",
@@ -56,150 +56,6 @@
         {
           "id": "ag/gemini-3.8-flash-low",
           "name": "ag/gemini-3.8-flash-low",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "cbai/gpt-6-astra",
-          "name": "cbai/gpt-6-astra",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "omnirush/gpt-6-astra",
-          "name": "omnirush/gpt-6-astra",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "omnirush/gpt-5.6-sol",
-          "name": "omnirush/gpt-5.6-sol",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "omnirush/gpt-6.1-sol",
-          "name": "omnirush/gpt-6.1-sol",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "omnirush/gpt-6-sol",
-          "name": "omnirush/gpt-6-sol",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "onomeo/glm-5.2",
-          "name": "onomeo/glm-5.2",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -318,8 +174,8 @@
           }
         },
         {
-          "id": "dsweb/deepseek-reasoner-search",
-          "name": "dsweb/deepseek-reasoner-search",
+          "id": "utim/claude-opus-4.6",
+          "name": "utim/claude-opus-4.6",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -342,8 +198,8 @@
           }
         },
         {
-          "id": "dsweb/deepseek-chat",
-          "name": "dsweb/deepseek-chat",
+          "id": "utim/deepseek-v4-pro-max",
+          "name": "utim/deepseek-v4-pro-max",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -366,8 +222,8 @@
           }
         },
         {
-          "id": "dsweb/deepseek-reasoner",
-          "name": "dsweb/deepseek-reasoner",
+          "id": "utim/claude-opus-5.5",
+          "name": "utim/claude-opus-5.5",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -390,8 +246,56 @@
           }
         },
         {
-          "id": "dsweb/deepseek-chat-search",
-          "name": "dsweb/deepseek-chat-search",
+          "id": "utim/kimi-k2.6",
+          "name": "utim/kimi-k2.6",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "utim/kimi-k3",
+          "name": "utim/kimi-k3",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "utim/zai/glm-5.3",
+          "name": "utim/zai/glm-5.3",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
