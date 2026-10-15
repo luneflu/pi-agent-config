@@ -3,7 +3,6 @@
     "npm:pi-models-discovery",
     "npm:pi-blackhole",
     "npm:pi-mcp-adapter",
-    "npm:pi-web-access",
     "npm:pi-subagents",
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:pi-fff",
