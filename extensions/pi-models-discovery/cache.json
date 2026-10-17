@@ -225,7 +225,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-17T04:34:38.949Z",
+      "fetchedAt": "2026-10-17T08:32:56.613Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -300,8 +300,8 @@
           }
         },
         {
-          "id": "antigravity/claude-opus-4-6-thinking",
-          "name": "antigravity/claude-opus-4-6-thinking",
+          "id": "antigravity/claude-sonnet-4-6",
+          "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -324,8 +324,8 @@
           }
         },
         {
-          "id": "antigravity/claude-sonnet-4-6",
-          "name": "antigravity/claude-sonnet-4-6",
+          "id": "antigravity/claude-opus-4-6-thinking",
+          "name": "antigravity/claude-opus-4-6-thinking",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -351,7 +351,7 @@
     },
     "local": {
       "fingerprint": "[\"http://localhost:20128/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-17T04:34:38.126Z",
+      "fetchedAt": "2026-10-17T08:32:55.750Z",
       "models": [
         {
           "id": "opencode/beam-free",
