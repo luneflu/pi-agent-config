@@ -225,15 +225,18 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-18T04:44:51.690Z",
+      "fetchedAt": "2026-10-18T04:45:56.960Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
           "name": "opencode/deepseek-v4.1-flash-free",
           "reasoning": true,
           "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
           },
           "input": [
             "text",
@@ -246,18 +249,18 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
+          "maxTokens": 65536
         },
         {
           "id": "opencode/glm-5.3-flash-free",
           "name": "opencode/glm-5.3-flash-free",
           "reasoning": true,
           "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
           },
           "input": [
             "text",
@@ -270,18 +273,18 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
+          "maxTokens": 65536
         },
         {
           "id": "antigravity/claude-sonnet-4-6",
           "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
           "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
           },
           "input": [
             "text",
@@ -294,18 +297,18 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
+          "maxTokens": 65536
         },
         {
           "id": "antigravity/claude-opus-4-6-thinking",
           "name": "antigravity/claude-opus-4-6-thinking",
           "reasoning": true,
           "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
           },
           "input": [
             "text",
@@ -318,18 +321,18 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
+          "maxTokens": 65536
         },
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
           "name": "antigravity/gemini-3.8-flash-tiered",
           "reasoning": true,
           "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
           },
           "input": [
             "text",
@@ -342,24 +345,24 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
+          "maxTokens": 65536
         }
       ]
     },
     "local": {
       "fingerprint": "[\"http://localhost:20128/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-18T04:08:25.681Z",
+      "fetchedAt": "2026-10-18T04:45:55.496Z",
       "models": [
         {
           "id": "opencode/beam-free",
           "name": "opencode/beam-free",
           "reasoning": true,
           "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
           },
           "input": [
             "text",
@@ -372,154 +375,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "opencode/nemotron-3.5-super-vl-free",
-          "name": "opencode/nemotron-3.5-super-vl-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "opencode/deepseek-v4.1-flash-free",
-          "name": "opencode/deepseek-v4.1-flash-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "opencode/glm-5.3-flash-free",
-          "name": "opencode/glm-5.3-flash-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "opencode/space-bunny-free",
-          "name": "opencode/space-bunny-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "antigravity/gemini-3.8-flash-high",
-          "name": "antigravity/gemini-3.8-flash-high",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "antigravity/claude-sonnet-4-6",
-          "name": "antigravity/claude-sonnet-4-6",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
+          "maxTokens": 65536
         }
       ]
     }
