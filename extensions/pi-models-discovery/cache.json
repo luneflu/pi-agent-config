@@ -225,7 +225,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-18T04:45:56.960Z",
+      "fetchedAt": "2026-10-18T04:46:18.649Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -351,7 +351,7 @@
     },
     "local": {
       "fingerprint": "[\"http://localhost:20128/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-18T04:45:55.496Z",
+      "fetchedAt": "2026-10-18T04:46:14.817Z",
       "models": [
         {
           "id": "opencode/beam-free",
