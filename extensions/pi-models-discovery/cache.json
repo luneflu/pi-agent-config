@@ -3,56 +3,8 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-16T10:41:19.113Z",
+      "fetchedAt": "2026-10-19T13:10:03.959Z",
       "models": [
-        {
-          "id": "opencode/ll-alpha-free",
-          "name": "opencode/ll-alpha-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
-        {
-          "id": "opencode/muse-spark-1.3-contributor-free",
-          "name": "opencode/muse-spark-1.3-contributor-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": "xhigh",
-            "max": "max"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536,
-          "compat": {
-            "supportsDeveloperRole": false
-          }
-        },
         {
           "id": "opencode/deepseek-v4.1-flash-free",
           "name": "opencode/deepseek-v4.1-flash-free",
@@ -102,8 +54,8 @@
           }
         },
         {
-          "id": "opencode/space-bunny-free",
-          "name": "opencode/space-bunny-free",
+          "id": "opencode/minimax-m3.1-flash-free",
+          "name": "opencode/minimax-m3.1-flash-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -126,8 +78,8 @@
           }
         },
         {
-          "id": "antigravity/gemini-3.8-flash-high",
-          "name": "antigravity/gemini-3.8-flash-high",
+          "id": "antigravity/gemini-3.8-flash-tiered",
+          "name": "antigravity/gemini-3.8-flash-tiered",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -150,8 +102,8 @@
           }
         },
         {
-          "id": "antigravity/gemini-3.8-flash-low",
-          "name": "antigravity/gemini-3.8-flash-low",
+          "id": "antigravity/claude-opus-4-6-thinking",
+          "name": "antigravity/claude-opus-4-6-thinking",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
@@ -198,8 +150,56 @@
           }
         },
         {
-          "id": "antigravity/claude-opus-4-6-thinking",
-          "name": "antigravity/claude-opus-4-6-thinking",
+          "id": "kilocode/minimax/minimax-m3.1-flash:free",
+          "name": "kilocode/minimax/minimax-m3.1-flash:free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "nvidia/z-ai/glm-5.3",
+          "name": "nvidia/z-ai/glm-5.3",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536,
+          "compat": {
+            "supportsDeveloperRole": false
+          }
+        },
+        {
+          "id": "nvidia/z-ai/glm-5.3-flash",
+          "name": "nvidia/z-ai/glm-5.3-flash",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": "xhigh",
