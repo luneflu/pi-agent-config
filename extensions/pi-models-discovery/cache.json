@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-20T09:22:59.244Z",
+      "fetchedAt": "2026-10-20T13:24:19.590Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -78,30 +78,6 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-sonnet-4-6",
-          "name": "antigravity/claude-sonnet-4-6",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
           "id": "antigravity/claude-opus-4-6-thinking",
           "name": "antigravity/claude-opus-4-6-thinking",
           "reasoning": true,
@@ -128,6 +104,30 @@
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
           "name": "antigravity/gemini-3.8-flash-tiered",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "antigravity/claude-sonnet-4-6",
+          "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
