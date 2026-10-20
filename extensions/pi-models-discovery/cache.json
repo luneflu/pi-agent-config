@@ -225,7 +225,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-19T06:29:33.929Z",
+      "fetchedAt": "2026-10-20T01:32:42.417Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -276,8 +276,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
+          "id": "opencode/minimax-m3.1-flash-free",
+          "name": "opencode/minimax-m3.1-flash-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -324,8 +324,80 @@
           "maxTokens": 65536
         },
         {
+          "id": "antigravity/gemini-3.8-flash-tiered",
+          "name": "antigravity/gemini-3.8-flash-tiered",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
           "id": "antigravity/claude-opus-4-6-thinking",
           "name": "antigravity/claude-opus-4-6-thinking",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/minimax/minimax-m3.1-flash:free",
+          "name": "kilocode/minimax/minimax-m3.1-flash:free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/inception/mercury-3",
+          "name": "kilocode/inception/mercury-3",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
