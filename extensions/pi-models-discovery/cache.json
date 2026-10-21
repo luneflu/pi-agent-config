@@ -321,7 +321,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-20T06:39:07.995Z",
+      "fetchedAt": "2026-10-21T02:33:29.499Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -396,8 +396,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-sonnet-4-6",
-          "name": "antigravity/claude-sonnet-4-6",
+          "id": "opencode/muse-wonder-1.0",
+          "name": "opencode/muse-wonder-1.0",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -446,6 +446,30 @@
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
           "name": "antigravity/gemini-3.8-flash-tiered",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "antigravity/claude-sonnet-4-6",
+          "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -542,6 +566,54 @@
         {
           "id": "commandcode/minimax/minimax-m3.1-flash:free",
           "name": "commandcode/minimax/minimax-m3.1-flash:free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "commandcode/ornith/ornith-1.5-122b",
+          "name": "commandcode/ornith/ornith-1.5-122b",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "commandcode/ornith/ornith-1.5-122b:free",
+          "name": "commandcode/ornith/ornith-1.5-122b:free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
