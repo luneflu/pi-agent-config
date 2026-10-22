@@ -393,7 +393,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-22T03:22:35.912Z",
+      "fetchedAt": "2026-10-22T05:57:57.938Z",
       "models": [
         {
           "id": "opencode/flint-40b-free",
@@ -468,30 +468,6 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-opus-4-6-thinking",
-          "name": "antigravity/claude-opus-4-6-thinking",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
           "id": "antigravity/claude-sonnet-4-6",
           "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
@@ -518,6 +494,30 @@
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
           "name": "antigravity/gemini-3.8-flash-tiered",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "antigravity/claude-opus-4-6-thinking",
+          "name": "antigravity/claude-opus-4-6-thinking",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -758,6 +758,102 @@
         {
           "id": "dahono/dahono/deepseek-v4-flash",
           "name": "dahono/dahono/deepseek-v4-flash",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/coding-glm-5.2-free",
+          "name": "aihubmix/coding-glm-5.2-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/coding-glm-5.3-flash-free",
+          "name": "aihubmix/coding-glm-5.3-flash-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/coding-kimi-k3-free",
+          "name": "aihubmix/coding-kimi-k3-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/coding-minimax-m3-free",
+          "name": "aihubmix/coding-minimax-m3-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
