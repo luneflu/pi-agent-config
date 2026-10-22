@@ -45,5 +45,6 @@
         "thinking": "high"
       }
     }
-  }
+  },
+  "hideThinkingBlock": true
 }
