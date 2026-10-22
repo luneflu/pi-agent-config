@@ -393,7 +393,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-21T10:54:16.330Z",
+      "fetchedAt": "2026-10-21T14:48:32.925Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -468,8 +468,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-sonnet-4-6",
-          "name": "antigravity/claude-sonnet-4-6",
+          "id": "antigravity/gemini-3.8-flash-tiered",
+          "name": "antigravity/gemini-3.8-flash-tiered",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -492,8 +492,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
+          "id": "antigravity/claude-sonnet-4-6",
+          "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -662,6 +662,102 @@
         {
           "id": "openrouter/minimax/minimax-m3.1-flash:free",
           "name": "openrouter/minimax/minimax-m3.1-flash:free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/coding-glm-5.3-flash-free",
+          "name": "aihubmix/coding-glm-5.3-flash-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/coding-glm-5.3-free",
+          "name": "aihubmix/coding-glm-5.3-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/coding-minimax-m3-free",
+          "name": "aihubmix/coding-minimax-m3-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "aihubmix/qwen3.8-max-free",
+          "name": "aihubmix/qwen3.8-max-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
