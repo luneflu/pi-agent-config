@@ -417,32 +417,8 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-23T02:13:59.132Z",
+      "fetchedAt": "2026-10-23T08:17:07.251Z",
       "models": [
-        {
-          "id": "opencode/flint-40b-free",
-          "name": "opencode/flint-40b-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
         {
           "id": "opencode/deepseek-v4.1-flash-free",
           "name": "opencode/deepseek-v4.1-flash-free",
@@ -516,30 +492,6 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-opus-4-6-thinking",
-          "name": "antigravity/claude-opus-4-6-thinking",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
           "id": "antigravity/claude-sonnet-4-6",
           "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
@@ -564,8 +516,32 @@
           "maxTokens": 65536
         },
         {
-          "id": "kilocode/minimax/minimax-m3.1-flash",
-          "name": "kilocode/minimax/minimax-m3.1-flash",
+          "id": "antigravity/claude-opus-4-6-thinking",
+          "name": "antigravity/claude-opus-4-6-thinking",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/reflection/beam-free",
+          "name": "kilocode/reflection/beam-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -614,30 +590,6 @@
         {
           "id": "nvidia/z-ai/glm-5.3-flash",
           "name": "nvidia/z-ai/glm-5.3-flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "dahono/dahono/deepseek-v4-flash",
-          "name": "dahono/dahono/deepseek-v4-flash",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -734,78 +686,6 @@
         {
           "id": "aihubmix/coding-minimax-m3-free",
           "name": "aihubmix/coding-minimax-m3-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "bazaarlink/deepseek-v4-flash-0731free",
-          "name": "bazaarlink/deepseek-v4-flash-0731free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "bazaarlink/deepseek/deepseek-v4-flash-0731free:free",
-          "name": "bazaarlink/deepseek/deepseek-v4-flash-0731free:free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "electronhub/glm-5.2:free",
-          "name": "electronhub/glm-5.2:free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
