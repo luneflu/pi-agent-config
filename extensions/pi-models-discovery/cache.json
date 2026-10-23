@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-22T13:42:59.448Z",
+      "fetchedAt": "2026-10-22T16:01:26.011Z",
       "models": [
         {
           "id": "opencode/flint-40b-free",
@@ -128,6 +128,30 @@
         {
           "id": "antigravity/claude-opus-4-6-thinking",
           "name": "antigravity/claude-opus-4-6-thinking",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/minimax/minimax-m3.1-flash",
+          "name": "kilocode/minimax/minimax-m3.1-flash",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -318,8 +342,56 @@
           "maxTokens": 65536
         },
         {
-          "id": "amd/DeepSeek-V4-Flash",
-          "name": "amd/DeepSeek-V4-Flash",
+          "id": "bazaarlink/deepseek-v4-flash-0731free",
+          "name": "bazaarlink/deepseek-v4-flash-0731free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "bazaarlink/deepseek/deepseek-v4-flash-0731free:free",
+          "name": "bazaarlink/deepseek/deepseek-v4-flash-0731free:free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "electronhub/glm-5.2:free",
+          "name": "electronhub/glm-5.2:free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
