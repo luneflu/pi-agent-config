@@ -417,7 +417,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-22T12:12:13.809Z",
+      "fetchedAt": "2026-10-22T12:48:33.208Z",
       "models": [
         {
           "id": "opencode/flint-40b-free",
