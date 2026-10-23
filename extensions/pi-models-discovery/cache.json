@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-23T15:22:53.477Z",
+      "fetchedAt": "2026-10-23T16:13:29.986Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -224,102 +224,6 @@
         {
           "id": "openrouter/nvidia/nemotron-3.5-super-vl:free",
           "name": "openrouter/nvidia/nemotron-3.5-super-vl:free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-glm-5.2-free",
-          "name": "aihubmix/coding-glm-5.2-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-glm-5.3-flash-free",
-          "name": "aihubmix/coding-glm-5.3-flash-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-kimi-k3-free",
-          "name": "aihubmix/coding-kimi-k3-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-minimax-m3-free",
-          "name": "aihubmix/coding-minimax-m3-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
