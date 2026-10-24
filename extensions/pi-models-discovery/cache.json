@@ -369,7 +369,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-ijih3v-ba5f59aa\",{},{}]",
-      "fetchedAt": "2026-10-23T14:08:41.392Z",
+      "fetchedAt": "2026-10-24T05:33:31.078Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -398,6 +398,78 @@
         {
           "id": "opencode/glm-5.3-flash-free",
           "name": "opencode/glm-5.3-flash-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "opencode/deepseek-v4.1-flash",
+          "name": "opencode/deepseek-v4.1-flash",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "opencode/kimi-k3.1-pro",
+          "name": "opencode/kimi-k3.1-pro",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "antigravity/claude-opus-4-6-thinking",
+          "name": "antigravity/claude-opus-4-6-thinking",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -468,8 +540,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-opus-4-6-thinking",
-          "name": "antigravity/claude-opus-4-6-thinking",
+          "id": "kilocode/reflection/beam-free",
+          "name": "kilocode/reflection/beam-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -492,8 +564,32 @@
           "maxTokens": 65536
         },
         {
-          "id": "kilocode/reflection/beam-free",
-          "name": "kilocode/reflection/beam-free",
+          "id": "kilocode/moonshotai/kimi-k3.1-pro",
+          "name": "kilocode/moonshotai/kimi-k3.1-pro",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "commandcode/moonshotai/Kimi-K3.1-Pro",
+          "name": "commandcode/moonshotai/Kimi-K3.1-Pro",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -566,102 +662,6 @@
         {
           "id": "openrouter/nvidia/nemotron-3.5-super-vl:free",
           "name": "openrouter/nvidia/nemotron-3.5-super-vl:free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-glm-5.2-free",
-          "name": "aihubmix/coding-glm-5.2-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-glm-5.3-flash-free",
-          "name": "aihubmix/coding-glm-5.3-flash-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-kimi-k3-free",
-          "name": "aihubmix/coding-kimi-k3-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "aihubmix/coding-minimax-m3-free",
-          "name": "aihubmix/coding-minimax-m3-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
