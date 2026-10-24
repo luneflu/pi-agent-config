@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-23T17:11:27.441Z",
+      "fetchedAt": "2026-10-24T01:06:15.890Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -78,8 +78,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-opus-4-6-thinking",
-          "name": "antigravity/claude-opus-4-6-thinking",
+          "id": "opencode/kimi-k3.1-pro",
+          "name": "opencode/kimi-k3.1-pro",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -104,6 +104,30 @@
         {
           "id": "antigravity/claude-sonnet-4-6",
           "name": "antigravity/claude-sonnet-4-6",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "antigravity/claude-opus-4-6-thinking",
+          "name": "antigravity/claude-opus-4-6-thinking",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -152,6 +176,54 @@
         {
           "id": "kilocode/reflection/beam-free",
           "name": "kilocode/reflection/beam-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/moonshotai/kimi-k3.1-pro",
+          "name": "kilocode/moonshotai/kimi-k3.1-pro",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "commandcode/moonshotai/Kimi-K3.1-Pro",
+          "name": "commandcode/moonshotai/Kimi-K3.1-Pro",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
