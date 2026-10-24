@@ -320,8 +320,8 @@
       ]
     },
     "lun": {
-      "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-6caa4bbfc73f81b6-d9kt85-026437a3\",{},{}]",
-      "fetchedAt": "2026-10-23T14:07:28.440Z",
+      "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-ijih3v-ba5f59aa\",{},{}]",
+      "fetchedAt": "2026-10-23T14:08:41.392Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
