@@ -46,5 +46,5 @@
       }
     }
   },
-  "hideThinkingBlock": true
+  "hideThinkingBlock": false
 }
