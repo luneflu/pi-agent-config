@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-25T03:19:23.652Z",
+      "fetchedAt": "2026-10-26T03:22:06.928Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -150,8 +150,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-sonnet-4-6",
-          "name": "antigravity/claude-sonnet-4-6",
+          "id": "antigravity/gemini-3.8-flash-tiered",
+          "name": "antigravity/gemini-3.8-flash-tiered",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -174,8 +174,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
+          "id": "antigravity/claude-sonnet-4-6",
+          "name": "antigravity/claude-sonnet-4-6",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
