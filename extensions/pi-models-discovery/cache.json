@@ -417,7 +417,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-28T02:11:10.071Z",
+      "fetchedAt": "2026-10-28T17:19:26.876Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -564,32 +564,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "antigravity/claude-opus-4-6-thinking",
-          "name": "antigravity/claude-opus-4-6-thinking",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "antigravity/claude-sonnet-4-6",
-          "name": "antigravity/claude-sonnet-4-6",
+          "id": "antigravity/claude-opus-5-5-medium",
+          "name": "antigravity/claude-opus-5-5-medium",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
