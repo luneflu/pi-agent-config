@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-28T12:32:21.263Z",
+      "fetchedAt": "2026-10-29T23:10:28.303Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -27,7 +27,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536
+          "maxTokens": 128000
         },
         {
           "id": "opencode/glm-5.3-flash-free",
@@ -51,7 +51,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536
+          "maxTokens": 128000
         },
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -75,7 +75,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536
+          "maxTokens": 128000
         },
         {
           "id": "opencode/kimi-k3.1-pro",
@@ -98,13 +98,13 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
+          "contextWindow": 1048576,
+          "maxTokens": 131072
         },
         {
           "id": "opencode/iceman-contributor-free",
           "name": "opencode/iceman-contributor-free",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -122,8 +122,8 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
@@ -146,7 +146,7 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
+          "contextWindow": 1048576,
           "maxTokens": 65536
         },
         {
@@ -171,12 +171,12 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536
+          "maxTokens": 128000
         },
         {
           "id": "kilocode/reflection/beam-free",
           "name": "kilocode/reflection/beam-free",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -194,13 +194,37 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/particle-ai/particle-1",
+          "name": "kilocode/particle-ai/particle-1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "kilocode/prism-ml/ternary-bonsai-2-9b",
           "name": "kilocode/prism-ml/ternary-bonsai-2-9b",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -218,8 +242,8 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "commandcode/deepseek/deepseek-v4.1-flash",
@@ -243,36 +267,12 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536
+          "maxTokens": 128000
         },
         {
-          "id": "nvidia/z-ai/glm-5.3",
-          "name": "nvidia/z-ai/glm-5.3",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "nvidia/z-ai/glm-5.3-flash",
-          "name": "nvidia/z-ai/glm-5.3-flash",
-          "reasoning": true,
+          "id": "nvidia/minimaxai/minimax-m3.1-flash",
+          "name": "nvidia/minimaxai/minimax-m3.1-flash",
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -296,7 +296,7 @@
         {
           "id": "openrouter/moonshotai/kimi-k3.1-pro",
           "name": "openrouter/moonshotai/kimi-k3.1-pro",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -320,7 +320,7 @@
         {
           "id": "openrouter/openai/gpt-6.1-terra",
           "name": "openrouter/openai/gpt-6.1-terra",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -344,7 +344,7 @@
         {
           "id": "openrouter/openai/gpt-6.1-terra-pro",
           "name": "openrouter/openai/gpt-6.1-terra-pro",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -368,7 +368,7 @@
         {
           "id": "openrouter/openai/gpt-6.1-terra-pro:batch",
           "name": "openrouter/openai/gpt-6.1-terra-pro:batch",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -392,7 +392,31 @@
         {
           "id": "openrouter/openai/gpt-6.1-terra:batch",
           "name": "openrouter/openai/gpt-6.1-terra:batch",
-          "reasoning": true,
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "groq/qwen/qwen3.8-27b",
+          "name": "groq/qwen/qwen3.8-27b",
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
