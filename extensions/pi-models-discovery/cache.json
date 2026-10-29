@@ -417,7 +417,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-29T02:53:22.401Z",
+      "fetchedAt": "2026-10-29T22:29:19.632Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -684,32 +684,8 @@
           "maxTokens": 128000
         },
         {
-          "id": "nvidia/z-ai/glm-5.3",
-          "name": "nvidia/z-ai/glm-5.3",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "nvidia/z-ai/glm-5.3-flash",
-          "name": "nvidia/z-ai/glm-5.3-flash",
+          "id": "nvidia/minimaxai/minimax-m3.1-flash",
+          "name": "nvidia/minimaxai/minimax-m3.1-flash",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -830,6 +806,30 @@
         {
           "id": "openrouter/openai/gpt-6.1-terra:batch",
           "name": "openrouter/openai/gpt-6.1-terra:batch",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "groq/qwen/qwen3.8-27b",
+          "name": "groq/qwen/qwen3.8-27b",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
