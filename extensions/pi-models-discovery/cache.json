@@ -441,7 +441,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-29T22:35:09.400Z",
+      "fetchedAt": "2026-10-30T07:09:55.824Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -564,6 +564,54 @@
           "maxTokens": 64000
         },
         {
+          "id": "opencode/ling-3.1-flash-free",
+          "name": "opencode/ling-3.1-flash-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "opencode/muse-spark-1.3-contributor-free",
+          "name": "opencode/muse-spark-1.3-contributor-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 131072
+        },
+        {
           "id": "antigravity/gemini-3.8-flash-tiered",
           "name": "antigravity/gemini-3.8-flash-tiered",
           "reasoning": true,
@@ -586,30 +634,6 @@
           },
           "contextWindow": 1048576,
           "maxTokens": 65536
-        },
-        {
-          "id": "antigravity/claude-opus-5-5-medium",
-          "name": "antigravity/claude-opus-5-5-medium",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
         },
         {
           "id": "kilocode/reflection/beam-free",
