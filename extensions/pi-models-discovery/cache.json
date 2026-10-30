@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-30T05:29:20.896Z",
+      "fetchedAt": "2026-10-30T11:33:10.825Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -196,30 +196,6 @@
           },
           "contextWindow": 1048576,
           "maxTokens": 65536
-        },
-        {
-          "id": "antigravity/claude-opus-5-5-medium",
-          "name": "antigravity/claude-opus-5-5-medium",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
         },
         {
           "id": "kilocode/reflection/beam-free",
