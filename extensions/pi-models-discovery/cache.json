@@ -465,7 +465,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-30T07:40:55.600Z",
+      "fetchedAt": "2026-10-30T14:29:46.032Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
