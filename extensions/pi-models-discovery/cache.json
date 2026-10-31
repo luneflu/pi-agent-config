@@ -513,7 +513,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-30T15:03:25.175Z",
+      "fetchedAt": "2026-10-31T03:38:55.760Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -780,6 +780,30 @@
           "maxTokens": 64000
         },
         {
+          "id": "kilocode/inclusionai/ling-3.1-flash-1019-free",
+          "name": "kilocode/inclusionai/ling-3.1-flash-1019-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
           "id": "commandcode/deepseek/deepseek-v4.1-flash",
           "name": "commandcode/deepseek/deepseek-v4.1-flash",
           "reasoning": true,
@@ -802,6 +826,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "commandcode/inclusionai/ling-3.1-flash-1019:free",
+          "name": "commandcode/inclusionai/ling-3.1-flash-1019:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 64000
         },
         {
           "id": "nvidia/minimaxai/minimax-m3.1-flash",
