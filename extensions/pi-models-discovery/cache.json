@@ -2601,7 +2601,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-31T15:57:46.439Z",
+      "fetchedAt": "2026-11-01T11:35:19.297Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -2941,7 +2941,31 @@
         },
         {
           "id": "nvidia/minimaxai/minimax-m3.1-flash",
-          "name": "nvidia/minimaxai/minimax-m3.1-flash",
+          "name": "minimaxai/minimax-m3.1-flash",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "nvidia/mistralai/mistral-large-4-1t-a52b",
+          "name": "mistralai/mistral-large-4-1t-a52b",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -2965,7 +2989,7 @@
         },
         {
           "id": "openrouter/moonshotai/kimi-k3.1-pro",
-          "name": "openrouter/moonshotai/kimi-k3.1-pro",
+          "name": "MoonshotAI: Kimi K3.1 Pro",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -2984,12 +3008,12 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
+          "contextWindow": 1048576,
           "maxTokens": 65536
         },
         {
           "id": "openrouter/openai/gpt-6.1-terra",
-          "name": "openrouter/openai/gpt-6.1-terra",
+          "name": "OpenAI: GPT-6.1 Terra",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -3008,12 +3032,12 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
+          "contextWindow": 1050000,
           "maxTokens": 65536
         },
         {
           "id": "openrouter/openai/gpt-6.1-terra-pro",
-          "name": "openrouter/openai/gpt-6.1-terra-pro",
+          "name": "OpenAI: GPT-6.1 Terra Pro",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -3032,12 +3056,12 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
+          "contextWindow": 1050000,
           "maxTokens": 65536
         },
         {
           "id": "openrouter/openai/gpt-6.1-terra-pro:batch",
-          "name": "openrouter/openai/gpt-6.1-terra-pro:batch",
+          "name": "OpenAI: GPT-6.1 Terra Pro (batch)",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -3056,12 +3080,12 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
+          "contextWindow": 1050000,
           "maxTokens": 65536
         },
         {
           "id": "openrouter/openai/gpt-6.1-terra:batch",
-          "name": "openrouter/openai/gpt-6.1-terra:batch",
+          "name": "OpenAI: GPT-6.1 Terra (batch)",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -3080,12 +3104,60 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
+          "contextWindow": 1050000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "openrouter/particle-ai/particle-1",
+          "name": "Particle AI: Particle-1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 65536
+        },
+        {
+          "id": "openrouter/prism-ml/ternary-bonsai-2-9b",
+          "name": "PrismML: Ternary Bonsai 2 9B",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
           "maxTokens": 65536
         },
         {
           "id": "groq/qwen/qwen3.8-27b",
-          "name": "groq/qwen/qwen3.8-27b",
+          "name": "Qwen/Qwen3.8-27B",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -3104,12 +3176,12 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
+          "contextWindow": 131072,
+          "maxTokens": 16384
         },
         {
           "id": "inferx/glm-5.3",
-          "name": "inferx/glm-5.3",
+          "name": "glm-5.3",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
