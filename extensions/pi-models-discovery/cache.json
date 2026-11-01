@@ -609,7 +609,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-10-31T03:39:25.910Z",
+      "fetchedAt": "2026-10-31T15:57:46.439Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -1094,6 +1094,30 @@
         {
           "id": "groq/qwen/qwen3.8-27b",
           "name": "groq/qwen/qwen3.8-27b",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "inferx/glm-5.3",
+          "name": "inferx/glm-5.3",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
