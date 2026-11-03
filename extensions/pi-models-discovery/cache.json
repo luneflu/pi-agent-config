@@ -2601,7 +2601,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-02T22:47:40.736Z",
+      "fetchedAt": "2026-11-03T10:24:40.860Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -2674,6 +2674,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "opencode/pulse-alpha-free",
+          "name": "opencode/pulse-alpha-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "opencode/kimi-k3.1-pro",
@@ -2892,8 +2916,32 @@
           "maxTokens": 64000
         },
         {
-          "id": "kilocode/inclusionai/ling-3.1-flash-1019-free",
-          "name": "kilocode/inclusionai/ling-3.1-flash-1019-free",
+          "id": "kilocode/thinkingmachines/inkling:free",
+          "name": "kilocode/thinkingmachines/inkling:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/google/gemma-4-31b-it:free",
+          "name": "kilocode/google/gemma-4-31b-it:free",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -5049,6 +5097,78 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "mistral/codestral-2508",
+          "name": "codestral-2508",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 256000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "mistral/mistral-large-4",
+          "name": "mistral-large-4",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 65536
+        },
+        {
+          "id": "mistral/mistral-large-4-0",
+          "name": "mistral-large-4",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
           "maxTokens": 65536
         }
       ]
