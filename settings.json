@@ -48,8 +48,8 @@
   },
   "hideThinkingBlock": false,
   "extensionChangelogVersions": {
-    "{\"source\":\"npm:pi-blackhole\",\"scope\":\"user\"}": "0.5.16",
-    "{\"source\":\"npm:pi-mcp-adapter\",\"scope\":\"user\"}": "7.0.0",
+    "{\"source\":\"npm:pi-blackhole\",\"scope\":\"user\"}": "0.5.17",
+    "{\"source\":\"npm:pi-mcp-adapter\",\"scope\":\"user\"}": "7.0.1",
     "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.84.0",
     "{\"source\":\"npm:pi-multiagent\",\"scope\":\"user\"}": "0.9.8"
   }
