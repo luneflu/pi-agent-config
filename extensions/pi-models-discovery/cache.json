@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-03T16:32:06.734Z",
+      "fetchedAt": "2026-11-04T04:51:25.621Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash-free",
@@ -78,6 +78,30 @@
           "maxTokens": 128000
         },
         {
+          "id": "opencode/crouton-alpha-free",
+          "name": "opencode/crouton-alpha-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
           "id": "antigravity/gemini-3.8-flash-tiered",
           "name": "antigravity/gemini-3.8-flash-tiered",
           "reasoning": true,
@@ -104,6 +128,30 @@
         {
           "id": "kilocode/reflection/beam-free",
           "name": "kilocode/reflection/beam-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/stealth/crouton-alpha",
+          "name": "kilocode/stealth/crouton-alpha",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -198,54 +246,6 @@
           "maxTokens": 64000
         },
         {
-          "id": "kilocode/thinkingmachines/inkling:free",
-          "name": "kilocode/thinkingmachines/inkling:free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/google/gemma-4-31b-it:free",
-          "name": "kilocode/google/gemma-4-31b-it:free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
           "id": "commandcode/deepseek/deepseek-v4.1-flash",
           "name": "commandcode/deepseek/deepseek-v4.1-flash",
           "reasoning": true,
@@ -268,6 +268,54 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "commandcode/stealth/crouton-alpha",
+          "name": "commandcode/stealth/crouton-alpha",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 64000
+        },
+        {
+          "id": "commandcode/inclusionai/ling-3.1-flash-1019",
+          "name": "commandcode/inclusionai/ling-3.1-flash-1019",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 64000
         },
         {
           "id": "nvidia/minimaxai/minimax-m3.1-flash",
