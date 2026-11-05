@@ -105,7 +105,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-05T05:40:21.334Z",
+      "fetchedAt": "2026-11-05T07:43:07.723Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -154,6 +154,30 @@
           },
           "contextWindow": 1048576,
           "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.0-tiny",
+          "name": "kilocode/inclusionai/ling-3.0-tiny",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "nvidia/minimaxai/minimax-m3.1-flash",
