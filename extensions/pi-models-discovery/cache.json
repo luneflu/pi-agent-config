@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-05T03:44:46.907Z",
+      "fetchedAt": "2026-11-06T04:03:54.356Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -54,8 +54,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "nvidia/minimaxai/minimax-m3.1-flash",
-          "name": "minimaxai/minimax-m3.1-flash",
+          "id": "kilocode/reflection/beam-free",
+          "name": "kilocode/reflection/beam-free",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -74,8 +74,176 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/google/gemini-omni-1.2-flash",
+          "name": "kilocode/google/gemini-omni-1.2-flash",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/google/gemini-omni-1.1-flash",
+          "name": "kilocode/google/gemini-omni-1.1-flash",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.0-tiny",
+          "name": "kilocode/inclusionai/ling-3.0-tiny",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openrouter/auto-code",
+          "name": "kilocode/openrouter/auto-code",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "commandcode/deepseek/deepseek-v4.1-flash",
+          "name": "commandcode/deepseek/deepseek-v4.1-flash",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
           "contextWindow": 1000000,
-          "maxTokens": 65536
+          "maxTokens": 128000
+        },
+        {
+          "id": "commandcode/reflection/beam:free",
+          "name": "commandcode/reflection/beam:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 64000
+        },
+        {
+          "id": "nvidia/minimaxai/minimax-m3.1-flash",
+          "name": "minimaxai/minimax-m3.1-flash",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 131072
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
@@ -98,8 +266,32 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "deepseek/deepseek-flash",
+          "name": "DeepSeek-V4.1-Flash",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 393216
         }
       ]
     },
