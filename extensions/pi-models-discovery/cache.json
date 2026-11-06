@@ -297,7 +297,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-05T08:21:31.832Z",
+      "fetchedAt": "2026-11-05T08:50:21.521Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -446,7 +446,7 @@
         {
           "id": "nvidia/minimaxai/minimax-m3.1-flash",
           "name": "minimaxai/minimax-m3.1-flash",
-          "reasoning": false,
+          "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -465,7 +465,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536
+          "maxTokens": 131072
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
@@ -488,13 +488,13 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "deepseek/deepseek-flash",
           "name": "DeepSeek-V4.1-Flash",
-          "reasoning": false,
+          "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
