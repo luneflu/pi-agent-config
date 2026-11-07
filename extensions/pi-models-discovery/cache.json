@@ -297,7 +297,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-06T14:15:54.571Z",
+      "fetchedAt": "2026-11-07T04:49:15.853Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -322,6 +322,54 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "opencode/iceman-free",
+          "name": "opencode/iceman-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "opencode/inkling-2-small-free",
+          "name": "opencode/inkling-2-small-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
@@ -374,6 +422,54 @@
         {
           "id": "kilocode/reflection/beam-free",
           "name": "kilocode/reflection/beam-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/liquid/lfm-3-1.7b",
+          "name": "kilocode/liquid/lfm-3-1.7b",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/liquid/lfm-3-1.7b:free",
+          "name": "kilocode/liquid/lfm-3-1.7b:free",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -513,6 +609,30 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "commandcode/deepseek/deepseek-v4.1-flash-ultrafast",
+          "name": "commandcode/deepseek/deepseek-v4.1-flash-ultrafast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
           "maxTokens": 128000
         },
         {
