@@ -297,7 +297,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-11T09:21:24.706Z",
+      "fetchedAt": "2026-11-12T05:13:27.105Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -396,6 +396,30 @@
           "maxTokens": 64000
         },
         {
+          "id": "kilocode/unbiased/pareto-26.10-preview",
+          "name": "kilocode/unbiased/pareto-26.10-preview",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
           "id": "commandcode/deepseek/deepseek-v4.1-flash",
           "name": "commandcode/deepseek/deepseek-v4.1-flash",
           "reasoning": true,
@@ -418,30 +442,6 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
-        },
-        {
-          "id": "nvidia/minimaxai/minimax-m3.1-flash",
-          "name": "minimaxai/minimax-m3.1-flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 131072
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
