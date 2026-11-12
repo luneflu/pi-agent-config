@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-09T17:23:17.244Z",
+      "fetchedAt": "2026-11-12T15:33:57.607Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -28,78 +28,6 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
-        },
-        {
-          "id": "opencode/longcat-2.5-free",
-          "name": "opencode/longcat-2.5-free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "opencode/iceman-free",
-          "name": "opencode/iceman-free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "opencode/inkling-2-small-free",
-          "name": "opencode/inkling-2-small-free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
         },
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
@@ -150,8 +78,2024 @@
           "maxTokens": 128000
         },
         {
-          "id": "kilocode/liquid/lfm-3-1.7b:free",
-          "name": "kilocode/liquid/lfm-3-1.7b:free",
+          "id": "kilocode/baidu/ernie-5.5-flash-preview:free",
+          "name": "kilocode/baidu/ernie-5.5-flash-preview:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/unbiased/pareto-26.10-preview",
+          "name": "kilocode/unbiased/pareto-26.10-preview",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/deepseek/deepseek-v4.1-flash-1017-ultrafast",
+          "name": "kilocode/deepseek/deepseek-v4.1-flash-1017-ultrafast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/humansand/ampersand-v0.1",
+          "name": "kilocode/humansand/ampersand-v0.1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/meituan/longcat-2.5",
+          "name": "kilocode/meituan/longcat-2.5",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.1-flash-1019",
+          "name": "kilocode/inclusionai/ling-3.1-flash-1019",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/particle/particle-1",
+          "name": "kilocode/particle/particle-1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.1-terra-fast",
+          "name": "kilocode/openai/gpt-6.1-terra-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/moonshotai/kimi-k3.1-pro-highspeed",
+          "name": "kilocode/moonshotai/kimi-k3.1-pro-highspeed",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 262144
+        },
+        {
+          "id": "kilocode/scaledown/scaledown-extract-1",
+          "name": "kilocode/scaledown/scaledown-extract-1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/scaledown/scaledown-summarize-1",
+          "name": "kilocode/scaledown/scaledown-summarize-1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/deepseek/deepseek-v4.1-flash-1017-fast",
+          "name": "kilocode/deepseek/deepseek-v4.1-flash-1017-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/reflection/beam-free",
+          "name": "kilocode/reflection/beam-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/nvidia/nemotron-3.5-lightning-free",
+          "name": "kilocode/nvidia/nemotron-3.5-lightning-free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/liquid/lfm2.5-24b-a2b",
+          "name": "kilocode/liquid/lfm2.5-24b-a2b",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/meta/muse-wonder-1.0",
+          "name": "kilocode/meta/muse-wonder-1.0",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/callstack/apex",
+          "name": "kilocode/callstack/apex",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/deepseek/deepseek-v4.1-flash-fast",
+          "name": "kilocode/deepseek/deepseek-v4.1-flash-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.1-sol-fast",
+          "name": "kilocode/openai/gpt-6.1-sol-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6-luna-fast",
+          "name": "kilocode/openai/gpt-6-luna-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6-sol-fast",
+          "name": "kilocode/openai/gpt-6-sol-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/quiverai/arrow-2",
+          "name": "kilocode/quiverai/arrow-2",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/quiverai/arrow-2-telos",
+          "name": "kilocode/quiverai/arrow-2-telos",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.0-flash-sante",
+          "name": "kilocode/inclusionai/ling-3.0-flash-sante",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-6-astra-fast",
+          "name": "kilocode/openai/gpt-6-astra-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/z-ai/glm-5.3-fast",
+          "name": "kilocode/z-ai/glm-5.3-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.0-flash-fin",
+          "name": "kilocode/inclusionai/ling-3.0-flash-fin",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/mixedbread/toast-1",
+          "name": "kilocode/mixedbread/toast-1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/qwen/qwen3.8-max",
+          "name": "kilocode/qwen/qwen3.8-max",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/moonshotai/kimi-k3-fast",
+          "name": "kilocode/moonshotai/kimi-k3-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 262144
+        },
+        {
+          "id": "kilocode/openai/gpt-5.6-luna-fast",
+          "name": "kilocode/openai/gpt-5.6-luna-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-5.6-sol-fast",
+          "name": "kilocode/openai/gpt-5.6-sol-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-5.6-terra-fast",
+          "name": "kilocode/openai/gpt-5.6-terra-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/google/gemini-omni-flash-preview",
+          "name": "kilocode/google/gemini-omni-flash-preview",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/z-ai/glm-5.2-fast",
+          "name": "kilocode/z-ai/glm-5.2-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/moonshotai/kimi-k2.7-code-highspeed",
+          "name": "kilocode/moonshotai/kimi-k2.7-code-highspeed",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 262144
+        },
+        {
+          "id": "kilocode/tencent/hy-mt2-lite",
+          "name": "kilocode/tencent/hy-mt2-lite",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/tencent/hy-mt2-plus",
+          "name": "kilocode/tencent/hy-mt2-plus",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/tencent/hy-mt2-pro",
+          "name": "kilocode/tencent/hy-mt2-pro",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-5.5-fast",
+          "name": "kilocode/openai/gpt-5.5-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/minimax/minimax-m2.7-highspeed",
+          "name": "kilocode/minimax/minimax-m2.7-highspeed",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 204800,
+          "maxTokens": 131072
+        },
+        {
+          "id": "kilocode/openai/gpt-5.4-mini-fast",
+          "name": "kilocode/openai/gpt-5.4-mini-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/x-ai/grok-4.20-multi-agent-beta",
+          "name": "kilocode/x-ai/grok-4.20-multi-agent-beta",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 500000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/x-ai/grok-4.20-non-reasoning-beta",
+          "name": "kilocode/x-ai/grok-4.20-non-reasoning-beta",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 500000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/x-ai/grok-4.20-reasoning-beta",
+          "name": "kilocode/x-ai/grok-4.20-reasoning-beta",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 500000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/x-ai/grok-4.20-non-reasoning",
+          "name": "kilocode/x-ai/grok-4.20-non-reasoning",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 500000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/x-ai/grok-4.20-reasoning",
+          "name": "kilocode/x-ai/grok-4.20-reasoning",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 500000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-5.4-fast",
+          "name": "kilocode/openai/gpt-5.4-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/qwen/qwen3.5-flash",
+          "name": "kilocode/qwen/qwen3.5-flash",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/qwen/qwen3.5-plus",
+          "name": "kilocode/qwen/qwen3.5-plus",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/minimax/minimax-m2.5-highspeed",
+          "name": "kilocode/minimax/minimax-m2.5-highspeed",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 204800,
+          "maxTokens": 131072
+        },
+        {
+          "id": "kilocode/openai/gpt-5.3-codex-fast",
+          "name": "kilocode/openai/gpt-5.3-codex-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/qwen/qwen3-max-thinking",
+          "name": "kilocode/qwen/qwen3-max-thinking",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/z-ai/glm-4.7-flashx",
+          "name": "kilocode/z-ai/glm-4.7-flashx",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/minimax/minimax-m2.1-lightning",
+          "name": "kilocode/minimax/minimax-m2.1-lightning",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 204800,
+          "maxTokens": 131072
+        },
+        {
+          "id": "kilocode/google/gemini-3-flash",
+          "name": "kilocode/google/gemini-3-flash",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/openai/gpt-5.2-fast",
+          "name": "kilocode/openai/gpt-5.2-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/amazon/nova-2-lite",
+          "name": "kilocode/amazon/nova-2-lite",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/mistralai/ministral-14b",
+          "name": "kilocode/mistralai/ministral-14b",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-oss-safeguard-120b",
+          "name": "kilocode/openai/gpt-oss-safeguard-120b",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/deepseek/deepseek-v3.2-thinking",
+          "name": "kilocode/deepseek/deepseek-v3.2-thinking",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-5.1-thinking",
+          "name": "kilocode/openai/gpt-5.1-thinking",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-5.1-thinking-fast",
+          "name": "kilocode/openai/gpt-5.1-thinking-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/nvidia/nemotron-nano-12b-v2-vl",
+          "name": "kilocode/nvidia/nemotron-nano-12b-v2-vl",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/interfaze/interfaze-beta",
+          "name": "kilocode/interfaze/interfaze-beta",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/qwen/qwen3-vl-instruct",
+          "name": "kilocode/qwen/qwen3-vl-instruct",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/openai/gpt-5-codex",
+          "name": "kilocode/openai/gpt-5-codex",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/deepseek/deepseek-v3.1",
+          "name": "kilocode/deepseek/deepseek-v3.1",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/nvidia/nemotron-nano-9b-v2",
+          "name": "kilocode/nvidia/nemotron-nano-9b-v2",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-5-fast",
+          "name": "kilocode/openai/gpt-5-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-5-mini-fast",
+          "name": "kilocode/openai/gpt-5-mini-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 400000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-4.1-mini-fast",
+          "name": "kilocode/openai/gpt-4.1-mini-fast",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/qwen/qwen-3-14b",
+          "name": "kilocode/qwen/qwen-3-14b",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/openai/o3-fast",
+          "name": "kilocode/openai/o3-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 100000
+        },
+        {
+          "id": "kilocode/openai/gpt-4.1-fast",
+          "name": "kilocode/openai/gpt-4.1-fast",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/inception/mercury-coder-small",
+          "name": "kilocode/inception/mercury-coder-small",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/amazon/nova-lite",
+          "name": "kilocode/amazon/nova-lite",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/amazon/nova-micro",
+          "name": "kilocode/amazon/nova-micro",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/amazon/nova-pro",
+          "name": "kilocode/amazon/nova-pro",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/mistralai/ministral-3b",
+          "name": "kilocode/mistralai/ministral-3b",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/mistralai/ministral-8b",
+          "name": "kilocode/mistralai/ministral-8b",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/mistralai/mistral-small",
+          "name": "kilocode/mistralai/mistral-small",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-4o-mini-fast",
+          "name": "kilocode/openai/gpt-4o-mini-fast",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/mistralai/codestral",
+          "name": "kilocode/mistralai/codestral",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-4o-fast",
+          "name": "kilocode/openai/gpt-4o-fast",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -196,54 +2140,6 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
-        },
-        {
-          "id": "commandcode/reflection/beam:free",
-          "name": "commandcode/reflection/beam:free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/minimaxai/minimax-m3.1-flash",
-          "name": "minimaxai/minimax-m3.1-flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 131072
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
