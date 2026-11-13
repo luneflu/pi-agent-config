@@ -2193,7 +2193,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-12T16:19:12.861Z",
+      "fetchedAt": "2026-11-13T05:46:45.737Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -2268,6 +2268,30 @@
           "maxTokens": 128000
         },
         {
+          "id": "kilocode/google/gemini-4-hydrogen",
+          "name": "kilocode/google/gemini-4-hydrogen",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
           "id": "kilocode/baidu/ernie-5.5-flash-preview:free",
           "name": "kilocode/baidu/ernie-5.5-flash-preview:free",
           "reasoning": false,
@@ -2292,8 +2316,152 @@
           "maxTokens": 64000
         },
         {
+          "id": "kilocode/thinkingmachines/inkling-2-small",
+          "name": "kilocode/thinkingmachines/inkling-2-small",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/particle-ai/particle-1:free",
+          "name": "kilocode/particle-ai/particle-1:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/apodex/apodex-1.1-mini:free",
+          "name": "kilocode/apodex/apodex-1.1-mini:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
           "id": "kilocode/unbiased/pareto-26.10-preview",
           "name": "kilocode/unbiased/pareto-26.10-preview",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.0-flash-sante",
+          "name": "kilocode/inclusionai/ling-3.0-flash-sante",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.0-flash-fin",
+          "name": "kilocode/inclusionai/ling-3.0-flash-fin",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/paperinstruments/ultramarine-1-flash",
+          "name": "kilocode/paperinstruments/ultramarine-1-flash",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -2580,78 +2748,6 @@
           "maxTokens": 64000
         },
         {
-          "id": "kilocode/nvidia/nemotron-3.5-lightning-free",
-          "name": "kilocode/nvidia/nemotron-3.5-lightning-free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/liquid/lfm2.5-24b-a2b",
-          "name": "kilocode/liquid/lfm2.5-24b-a2b",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/meta/muse-wonder-1.0",
-          "name": "kilocode/meta/muse-wonder-1.0",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
           "id": "kilocode/callstack/apex",
           "name": "kilocode/callstack/apex",
           "reasoning": false,
@@ -2820,30 +2916,6 @@
           "maxTokens": 64000
         },
         {
-          "id": "kilocode/inclusionai/ling-3.0-flash-sante",
-          "name": "kilocode/inclusionai/ling-3.0-flash-sante",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
           "id": "kilocode/openai/gpt-6-astra-fast",
           "name": "kilocode/openai/gpt-6-astra-fast",
           "reasoning": true,
@@ -2890,30 +2962,6 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
-        },
-        {
-          "id": "kilocode/inclusionai/ling-3.0-flash-fin",
-          "name": "kilocode/inclusionai/ling-3.0-flash-fin",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
         },
         {
           "id": "kilocode/mixedbread/toast-1",
@@ -3636,30 +3684,6 @@
           "maxTokens": 128000
         },
         {
-          "id": "kilocode/amazon/nova-2-lite",
-          "name": "kilocode/amazon/nova-2-lite",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
           "id": "kilocode/mistralai/ministral-14b",
           "name": "kilocode/mistralai/ministral-14b",
           "reasoning": false,
@@ -3828,30 +3852,6 @@
           "maxTokens": 64000
         },
         {
-          "id": "kilocode/qwen/qwen3-vl-instruct",
-          "name": "kilocode/qwen/qwen3-vl-instruct",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
           "id": "kilocode/openai/gpt-5-codex",
           "name": "kilocode/openai/gpt-5-codex",
           "reasoning": true,
@@ -3874,30 +3874,6 @@
           },
           "contextWindow": 400000,
           "maxTokens": 128000
-        },
-        {
-          "id": "kilocode/deepseek/deepseek-v3.1",
-          "name": "kilocode/deepseek/deepseek-v3.1",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
         },
         {
           "id": "kilocode/nvidia/nemotron-nano-9b-v2",
@@ -4330,6 +4306,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "commandcode/thinkingmachines/inkling-2-small:free",
+          "name": "commandcode/thinkingmachines/inkling-2-small:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 64000
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
