@@ -2313,7 +2313,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-16T08:08:36.547Z",
+      "fetchedAt": "2026-11-16T09:42:36.507Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -4522,6 +4522,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 65536
+        },
+        {
+          "id": "commandcode/tencent/hy4-flash",
+          "name": "commandcode/tencent/hy4-flash",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1024000,
+          "maxTokens": 64000
         },
         {
           "id": "commandcode/thinkingmachines/inkling-2-small:free",
