@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-17T12:49:34.648Z",
+      "fetchedAt": "2026-11-17T21:38:16.548Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -54,6 +54,54 @@
           "maxTokens": 64000
         },
         {
+          "id": "opencode/gpt-6.2-sol",
+          "name": "opencode/gpt-6.2-sol",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "opencode/gpt-6.2-astra",
+          "name": "opencode/gpt-6.2-astra",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
           "id": "opencode/qwen4-max",
           "name": "opencode/qwen4-max",
           "reasoning": true,
@@ -75,30 +123,6 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
           "maxTokens": 65536
         },
         {
@@ -126,6 +150,30 @@
           "maxTokens": 64000
         },
         {
+          "id": "antigravity/gemini-3.8-flash-tiered",
+          "name": "antigravity/gemini-3.8-flash-tiered",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 65536
+        },
+        {
           "id": "antigravity/claude-opus-5-5-low",
           "name": "antigravity/claude-opus-5-5-low",
           "reasoning": true,
@@ -147,6 +195,102 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.2-sol",
+          "name": "kilocode/openai/gpt-6.2-sol",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.2-astra-pro",
+          "name": "kilocode/openai/gpt-6.2-astra-pro",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.2-astra",
+          "name": "kilocode/openai/gpt-6.2-astra",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.2-sol-pro",
+          "name": "kilocode/openai/gpt-6.2-sol-pro",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
           "maxTokens": 128000
         },
         {
@@ -316,6 +460,54 @@
           },
           "contextWindow": 200000,
           "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.2-astra-fast",
+          "name": "kilocode/openai/gpt-6.2-astra-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/openai/gpt-6.2-sol-fast",
+          "name": "kilocode/openai/gpt-6.2-sol-fast",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
         },
         {
           "id": "kilocode/recursive/flint-v1.0",
@@ -2190,6 +2382,54 @@
           "maxTokens": 64000
         },
         {
+          "id": "commandcode/gpt-6.2-astra",
+          "name": "commandcode/gpt-6.2-astra",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1050000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "commandcode/gpt-6.2-sol",
+          "name": "commandcode/gpt-6.2-sol",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1050000,
+          "maxTokens": 128000
+        },
+        {
           "id": "commandcode/deepseek/deepseek-v4.1-flash",
           "name": "commandcode/deepseek/deepseek-v4.1-flash",
           "reasoning": true,
@@ -2236,6 +2476,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 65536
+        },
+        {
+          "id": "commandcode/tencent/hy4",
+          "name": "commandcode/tencent/hy4",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1024000,
+          "maxTokens": 64000
         },
         {
           "id": "commandcode/tencent/hy4-flash",
