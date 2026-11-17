@@ -2625,7 +2625,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-16T09:42:36.507Z",
+      "fetchedAt": "2026-11-16T23:49:46.869Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -2748,6 +2748,30 @@
           "maxTokens": 128000
         },
         {
+          "id": "kilocode/tencent/hy4-flash",
+          "name": "kilocode/tencent/hy4-flash",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
           "id": "kilocode/qwen/qwen4-max",
           "name": "kilocode/qwen/qwen4-max",
           "reasoning": true,
@@ -2770,30 +2794,6 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 65536
-        },
-        {
-          "id": "kilocode/inclusionai/ling-3.2-flash:free",
-          "name": "kilocode/inclusionai/ling-3.2-flash:free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
         },
         {
           "id": "kilocode/google/gemini-4-hydrogen",
@@ -2916,8 +2916,8 @@
           "maxTokens": 64000
         },
         {
-          "id": "kilocode/tencent/hy4-flash",
-          "name": "kilocode/tencent/hy4-flash",
+          "id": "kilocode/recursive/flint-v1.0",
+          "name": "kilocode/recursive/flint-v1.0",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -4881,6 +4881,30 @@
             "cacheWrite": 0
           },
           "contextWindow": 1048576,
+          "maxTokens": 64000
+        },
+        {
+          "id": "commandcode/recursive/flint-v1.0:free",
+          "name": "commandcode/recursive/flint-v1.0:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
           "maxTokens": 64000
         },
         {
