@@ -2625,7 +2625,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-17T23:10:24.435Z",
+      "fetchedAt": "2026-11-18T07:29:20.852Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -4020,30 +4020,6 @@
           "maxTokens": 128000
         },
         {
-          "id": "kilocode/minimax/minimax-m2.7-highspeed",
-          "name": "kilocode/minimax/minimax-m2.7-highspeed",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 204800,
-          "maxTokens": 131072
-        },
-        {
           "id": "kilocode/openai/gpt-5.4-mini-fast",
           "name": "kilocode/openai/gpt-5.4-mini-fast",
           "reasoning": true,
@@ -4260,30 +4236,6 @@
           "maxTokens": 65536
         },
         {
-          "id": "kilocode/minimax/minimax-m2.5-highspeed",
-          "name": "kilocode/minimax/minimax-m2.5-highspeed",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 204800,
-          "maxTokens": 131072
-        },
-        {
           "id": "kilocode/openai/gpt-5.3-codex-fast",
           "name": "kilocode/openai/gpt-5.3-codex-fast",
           "reasoning": true,
@@ -4354,30 +4306,6 @@
           },
           "contextWindow": 200000,
           "maxTokens": 128000
-        },
-        {
-          "id": "kilocode/minimax/minimax-m2.1-lightning",
-          "name": "kilocode/minimax/minimax-m2.1-lightning",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 204800,
-          "maxTokens": 131072
         },
         {
           "id": "kilocode/google/gemini-3-flash",
