@@ -2625,7 +2625,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-19T08:35:29.471Z",
+      "fetchedAt": "2026-11-19T11:18:42.706Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
