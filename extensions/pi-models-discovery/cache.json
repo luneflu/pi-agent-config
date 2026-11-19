@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-17T21:38:16.548Z",
+      "fetchedAt": "2026-11-17T21:51:59.792Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
