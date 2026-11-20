@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-17T21:51:59.792Z",
+      "fetchedAt": "2026-11-19T03:28:52.761Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -102,6 +102,30 @@
           "maxTokens": 128000
         },
         {
+          "id": "opencode/tidepool-alpha-free",
+          "name": "opencode/tidepool-alpha-free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
           "id": "opencode/qwen4-max",
           "name": "opencode/qwen4-max",
           "reasoning": true,
@@ -123,6 +147,30 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "antigravity/gemini-3.8-flash-tiered",
+          "name": "antigravity/gemini-3.8-flash-tiered",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
           "maxTokens": 65536
         },
         {
@@ -148,30 +196,6 @@
           },
           "contextWindow": 200000,
           "maxTokens": 64000
-        },
-        {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 65536
         },
         {
           "id": "antigravity/claude-opus-5-5-low",
@@ -220,6 +244,30 @@
           },
           "contextWindow": 272000,
           "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/google/gemini-4-neon",
+          "name": "kilocode/google/gemini-4-neon",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "kilocode/openai/gpt-6.2-astra-pro",
@@ -340,6 +388,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 65536
+        },
+        {
+          "id": "kilocode/inclusionai/ling-3.2-flash:free",
+          "name": "kilocode/inclusionai/ling-3.2-flash:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "kilocode/google/gemini-4-hydrogen",
@@ -1398,30 +1470,6 @@
           "maxTokens": 128000
         },
         {
-          "id": "kilocode/minimax/minimax-m2.7-highspeed",
-          "name": "kilocode/minimax/minimax-m2.7-highspeed",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 204800,
-          "maxTokens": 131072
-        },
-        {
           "id": "kilocode/openai/gpt-5.4-mini-fast",
           "name": "kilocode/openai/gpt-5.4-mini-fast",
           "reasoning": true,
@@ -1638,30 +1686,6 @@
           "maxTokens": 65536
         },
         {
-          "id": "kilocode/minimax/minimax-m2.5-highspeed",
-          "name": "kilocode/minimax/minimax-m2.5-highspeed",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 204800,
-          "maxTokens": 131072
-        },
-        {
           "id": "kilocode/openai/gpt-5.3-codex-fast",
           "name": "kilocode/openai/gpt-5.3-codex-fast",
           "reasoning": true,
@@ -1732,30 +1756,6 @@
           },
           "contextWindow": 200000,
           "maxTokens": 128000
-        },
-        {
-          "id": "kilocode/minimax/minimax-m2.1-lightning",
-          "name": "kilocode/minimax/minimax-m2.1-lightning",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 204800,
-          "maxTokens": 131072
         },
         {
           "id": "kilocode/google/gemini-3-flash",
@@ -2523,6 +2523,30 @@
             "cacheWrite": 0
           },
           "contextWindow": 1024000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "commandcode/google/gemini-4-neon",
+          "name": "commandcode/google/gemini-4-neon",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
           "maxTokens": 64000
         },
         {
