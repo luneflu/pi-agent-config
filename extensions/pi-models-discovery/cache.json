@@ -2625,7 +2625,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-19T11:21:36.905Z",
+      "fetchedAt": "2026-11-20T05:45:17.282Z",
       "models": [
         {
           "id": "opencode/deepseek-v4.1-flash",
@@ -2650,6 +2650,102 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "opencode/gpt-image-2.5-sunburst",
+          "name": "opencode/gpt-image-2.5-sunburst",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "opencode/gpt-live-1",
+          "name": "opencode/gpt-live-1",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "opencode/gpt-6-luna-decision",
+          "name": "opencode/gpt-6-luna-decision",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 272000,
+          "maxTokens": 128000
+        },
+        {
+          "id": "opencode/grok-imagine-image-2.0",
+          "name": "opencode/grok-imagine-image-2.0",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "antigravity/gemini-3.8-flash-tiered",
@@ -2722,6 +2818,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/mistralai/pixtral-large-2502",
+          "name": "kilocode/mistralai/pixtral-large-2502",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "commandcode/deepseek/deepseek-v4.1-flash",
@@ -2866,6 +2986,30 @@
           },
           "contextWindow": 1048576,
           "maxTokens": 393216
+        },
+        {
+          "id": "claude-opus-5-5-low",
+          "name": "claude-opus-5-5-low",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 128000
         }
       ]
     },
