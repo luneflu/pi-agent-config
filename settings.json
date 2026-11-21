@@ -30,5 +30,18 @@
     "{\"source\":\"npm:pi-mcp-adapter\",\"scope\":\"user\"}": "7.0.1",
     "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.89.1",
     "{\"source\":\"npm:pi-multiagent\",\"scope\":\"user\"}": "0.9.8"
+  },
+  "compaction": {
+    "modelOverrides": {
+      "groq/qwen/qwen3.8-27b": {
+        "reserveTokens": 2000,
+        "keepRecentTokens": 2000
+      }
+    }
+  },
+  "retry": {
+    "maxRetries": 3,
+    "baseDelayMs": 15000,
+    "maxAgentDelayMs": 65000
   }
 }
