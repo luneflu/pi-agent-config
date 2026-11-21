@@ -31,8 +31,19 @@
     "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.89.1",
     "{\"source\":\"npm:pi-multiagent\",\"scope\":\"user\"}": "0.9.8"
   },
+  "defaultTools": [
+    "read",
+    "bash",
+    "edit",
+    "write",
+    "recall"
+  ],
   "compaction": {
     "modelOverrides": {
+      "lun/groq/qwen/qwen3.8-27b": {
+        "reserveTokens": 1500,
+        "keepRecentTokens": 2000
+      },
       "groq/qwen/qwen3.8-27b": {
         "reserveTokens": 2000,
         "keepRecentTokens": 2000
