@@ -225,56 +225,8 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-21T17:59:58.803Z",
+      "fetchedAt": "2026-11-22T10:10:34.408Z",
       "models": [
-        {
-          "id": "opencode/deepseek-v4.1-flash",
-          "name": "opencode/deepseek-v4.1-flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
-        },
-        {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 65536
-        },
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
           "name": "antigravity/gemini-4-hydrogen-sonar",
@@ -324,30 +276,6 @@
           "maxTokens": 128000
         },
         {
-          "id": "commandcode/deepseek/deepseek-v4.1-flash",
-          "name": "commandcode/deepseek/deepseek-v4.1-flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
-        },
-        {
           "id": "nvidia/poolside/laguna-xs-2.1",
           "name": "poolside/laguna-xs-2.1",
           "reasoning": false,
@@ -370,30 +298,6 @@
           },
           "contextWindow": 200000,
           "maxTokens": 64000
-        },
-        {
-          "id": "deepseek/deepseek-flash",
-          "name": "DeepSeek-V4.1-Flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 393216
         },
         {
           "id": "groq/openai/gpt-oss-120b",
@@ -420,8 +324,8 @@
           "maxTokens": 65536
         },
         {
-          "id": "claude-opus-5-5-low",
-          "name": "claude-opus-5-5-low",
+          "id": "openrouter/@preset/deepseek-v4-1-flash-1017-cheapest",
+          "name": "Preset: Deepseek v4.1 Flash 1017 Cheapest",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -440,8 +344,56 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
+          "contextWindow": 1048576,
+          "maxTokens": 943718
+        },
+        {
+          "id": "openrouter/particle-ai/particle-1:free",
+          "name": "Particle AI: Particle-1 (free)",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 131072
+        },
+        {
+          "id": "claude-opus-5-5-low",
+          "name": "claude-opus-5-5-low",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
           "contextWindow": 1000000,
-          "maxTokens": 128000
+          "maxTokens": 65536
         }
       ]
     },
