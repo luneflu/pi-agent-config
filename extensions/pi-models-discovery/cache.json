@@ -225,8 +225,80 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-22T17:41:14.107Z",
+      "fetchedAt": "2026-11-24T15:01:37.446Z",
       "models": [
+        {
+          "id": "opencode/jev-1.14",
+          "name": "opencode/jev-1.14",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "opencode/grok-imagine-video-1.5",
+          "name": "opencode/grok-imagine-video-1.5",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "opencode/grok-imagine-video-1.5-lite",
+          "name": "opencode/grok-imagine-video-1.5-lite",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
           "name": "antigravity/gemini-4-hydrogen-sonar",
@@ -274,6 +346,30 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "commandcode/thinkingmachines/inkling-2-mini",
+          "name": "commandcode/thinkingmachines/inkling-2-mini",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 64000
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
