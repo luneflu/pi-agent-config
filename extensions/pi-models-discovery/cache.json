@@ -225,80 +225,8 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-24T15:09:51.321Z",
+      "fetchedAt": "2026-11-24T15:44:27.477Z",
       "models": [
-        {
-          "id": "opencode/jev-1.14",
-          "name": "opencode/jev-1.14",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "opencode/grok-imagine-video-1.5",
-          "name": "opencode/grok-imagine-video-1.5",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "opencode/grok-imagine-video-1.5-lite",
-          "name": "opencode/grok-imagine-video-1.5-lite",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
           "name": "antigravity/gemini-4-hydrogen-sonar",
@@ -348,32 +276,8 @@
           "maxTokens": 128000
         },
         {
-          "id": "commandcode/thinkingmachines/inkling-2-mini",
-          "name": "commandcode/thinkingmachines/inkling-2-mini",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/bigcode/starcoder2-15b",
-          "name": "bigcode/starcoder2-15b",
+          "id": "kilocode/recursive/flint-v1.0:free",
+          "name": "kilocode/recursive/flint-v1.0:free",
           "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -396,320 +300,8 @@
           "maxTokens": 64000
         },
         {
-          "id": "nvidia/fastino/gliner2-pii",
-          "name": "fastino/gliner2-pii",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/google/gemma-3-12b-it",
-          "name": "google/gemma-3-12b-it",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/google/gemma-3-4b-it",
-          "name": "google/gemma-3-4b-it",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/google/gemma-4-31b-it",
-          "name": "google/gemma-4-31b-it",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/meta/muse-glimmer-30b",
-          "name": "meta/muse-glimmer-30b",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/minimaxai/minimax-m3.1-flash",
-          "name": "minimaxai/minimax-m3.1-flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 131072
-        },
-        {
-          "id": "nvidia/mistralai/mistral-large-4-1t-a52b",
-          "name": "mistralai/mistral-large-4-1t-a52b",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/moonshotai/kimi-k3.1-pro",
-          "name": "moonshotai/kimi-k3.1-pro",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 131072
-        },
-        {
-          "id": "nvidia/nvidia/ai-synthetic-video-detector",
-          "name": "nvidia/ai-synthetic-video-detector",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/cosmos-reason2-8b",
-          "name": "nvidia/cosmos-reason2-8b",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/embed-qa-4",
-          "name": "nvidia/embed-qa-4",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/ising-calibration-1.5-31b",
-          "name": "nvidia/ising-calibration-1.5-31b",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/llama-3.1-nemoguard-8b-topic-control",
-          "name": "nvidia/llama-3.1-nemoguard-8b-topic-control",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
-          "name": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+          "id": "kilocode/nvidia/nemotron-3.5-super-vl:free",
+          "name": "kilocode/nvidia/nemotron-3.5-super-vl:free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -729,318 +321,6 @@
             "cacheWrite": 0
           },
           "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
-          "name": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/llama-3.2-nv-embedqa-1b-v1",
-          "name": "nvidia/llama-3.2-nv-embedqa-1b-v1",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "name": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3-ultra-550b-a55b",
-          "name": "nvidia/nemotron-3-ultra-550b-a55b",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3.5-bolt-e4b",
-          "name": "nvidia/nemotron-3.5-bolt-e4b",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3.5-content-safety",
-          "name": "nvidia/nemotron-3.5-content-safety",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3.5-embed-1b",
-          "name": "nvidia/nemotron-3.5-embed-1b",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3.5-embed-8b",
-          "name": "nvidia/nemotron-3.5-embed-8b",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3.5-lightning-30b-a3b",
-          "name": "nvidia/nemotron-3.5-lightning-30b-a3b",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nemotron-3.5-super-vl-120b-a12b",
-          "name": "nvidia/nemotron-3.5-super-vl-120b-a12b",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nv-embedqa-mistral-7b-v2",
-          "name": "nvidia/nv-embedqa-mistral-7b-v2",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/nvclip",
-          "name": "nvidia/nvclip",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/nvidia/riva-translate-4b-instruct-v2",
-          "name": "nvidia/riva-translate-4b-instruct-v2",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
           "maxTokens": 64000
         },
         {
@@ -1066,78 +346,6 @@
           },
           "contextWindow": 200000,
           "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/snowflake/arctic-embed-l",
-          "name": "snowflake/arctic-embed-l",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/stepfun-ai/step-5-preview",
-          "name": "stepfun-ai/step-5-preview",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "nvidia/z-ai/glm-5.3-flash",
-          "name": "z-ai/glm-5.3-flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
         },
         {
           "id": "groq/openai/gpt-oss-120b",
@@ -1185,7 +393,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1048576,
-          "maxTokens": 943718
+          "maxTokens": 393216
         },
         {
           "id": "openrouter/baidu/ernie-5.5-flash-preview:free",
@@ -1212,8 +420,8 @@
           "maxTokens": 921600
         },
         {
-          "id": "openrouter/particle-ai/particle-1:free",
-          "name": "Particle AI: Particle-1 (free)",
+          "id": "openrouter/liquid/lfm-3-1.7b:free",
+          "name": "LiquidAI: LFM3-1.7B (free)",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -1232,8 +440,32 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1048576,
-          "maxTokens": 131072
+          "contextWindow": 262144,
+          "maxTokens": 8192
+        },
+        {
+          "id": "openrouter/recursive/flint-v1.0:free",
+          "name": "Recursive: Flint (free)",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 235929
         },
         {
           "id": "claude-opus-5-5-low",
