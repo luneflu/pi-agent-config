@@ -225,7 +225,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-24T17:48:51.988Z",
+      "fetchedAt": "2026-11-24T17:52:17.860Z",
       "models": [
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
