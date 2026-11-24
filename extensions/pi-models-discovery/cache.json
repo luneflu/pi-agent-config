@@ -225,7 +225,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-24T16:26:56.384Z",
+      "fetchedAt": "2026-11-24T17:48:51.988Z",
       "models": [
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
@@ -321,6 +321,30 @@
             "cacheWrite": 0
           },
           "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/google/gemini-4-neon-fast",
+          "name": "kilocode/google/gemini-4-neon-fast",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
           "maxTokens": 64000
         },
         {
