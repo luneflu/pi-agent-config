@@ -225,7 +225,7 @@
     },
     "lun": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-22T10:13:24.087Z",
+      "fetchedAt": "2026-11-22T17:41:14.107Z",
       "models": [
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
@@ -346,6 +346,30 @@
           },
           "contextWindow": 1048576,
           "maxTokens": 943718
+        },
+        {
+          "id": "openrouter/baidu/ernie-5.5-flash-preview:free",
+          "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1024000,
+          "maxTokens": 921600
         },
         {
           "id": "openrouter/particle-ai/particle-1:free",
