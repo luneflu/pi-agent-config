@@ -3,12 +3,12 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-21T12:34:28.017Z",
+      "fetchedAt": "2026-11-26T03:35:39.522Z",
       "models": [
         {
-          "id": "opencode/deepseek-v4.1-flash",
-          "name": "opencode/deepseek-v4.1-flash",
-          "reasoning": true,
+          "id": "opencode/seaglass-alpha-free",
+          "name": "opencode/seaglass-alpha-free",
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -26,32 +26,8 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
-        },
-        {
-          "id": "antigravity/claude-opus-5-5-low",
-          "name": "antigravity/claude-opus-5-5-low",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
@@ -78,32 +54,8 @@
           "maxTokens": 64000
         },
         {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 65536
-        },
-        {
-          "id": "commandcode/deepseek/deepseek-v4.1-flash",
-          "name": "commandcode/deepseek/deepseek-v4.1-flash",
+          "id": "antigravity/claude-opus-5-5-low",
+          "name": "antigravity/claude-opus-5-5-low",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -124,6 +76,174 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
+        },
+        {
+          "id": "kilocode/upstage/solar-mini-4-5",
+          "name": "kilocode/upstage/solar-mini-4-5",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/upstage/solar-pro-4-contributor",
+          "name": "kilocode/upstage/solar-pro-4-contributor",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/xiaomi/mimo-v2.6-flash-mopd",
+          "name": "kilocode/xiaomi/mimo-v2.6-flash-mopd",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/recursive/flint-v1.0:free",
+          "name": "kilocode/recursive/flint-v1.0:free",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/nvidia/nemotron-3.5-super-vl:free",
+          "name": "kilocode/nvidia/nemotron-3.5-super-vl:free",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/tngtech/deepseek-r1t2-chimera",
+          "name": "kilocode/tngtech/deepseek-r1t2-chimera",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 128000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "kilocode/google/gemini-4-neon-fast",
+          "name": "kilocode/google/gemini-4-neon-fast",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 200000,
+          "maxTokens": 64000
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
@@ -150,8 +270,32 @@
           "maxTokens": 64000
         },
         {
-          "id": "deepseek/deepseek-flash",
-          "name": "DeepSeek-V4.1-Flash",
+          "id": "groq/openai/gpt-oss-120b",
+          "name": "GPT OSS 120B",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 65536
+        },
+        {
+          "id": "openrouter/@preset/deepseek-v4-1-flash-1017-cheapest",
+          "name": "Preset: Deepseek v4.1 Flash 1017 Cheapest",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -174,8 +318,8 @@
           "maxTokens": 393216
         },
         {
-          "id": "groq/qwen/qwen3.8-27b",
-          "name": "Qwen/Qwen3.8-27B",
+          "id": "openrouter/baidu/ernie-5.5-flash-preview:free",
+          "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -194,13 +338,61 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 131072,
-          "maxTokens": 16384
+          "contextWindow": 1024000,
+          "maxTokens": 921600
+        },
+        {
+          "id": "openrouter/liquid/lfm-3-1.7b:free",
+          "name": "LiquidAI: LFM3-1.7B (free)",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192
+        },
+        {
+          "id": "openrouter/recursive/flint-v1.0:free",
+          "name": "Recursive: Flint (free)",
+          "reasoning": true,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 235929
         },
         {
           "id": "claude-opus-5-5-low",
           "name": "claude-opus-5-5-low",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -219,7 +411,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 128000
+          "maxTokens": 65536
         }
       ]
     },
