@@ -3,7 +3,7 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-26T03:35:39.522Z",
+      "fetchedAt": "2026-11-26T05:18:02.799Z",
       "models": [
         {
           "id": "opencode/seaglass-alpha-free",
