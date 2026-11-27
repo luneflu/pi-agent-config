@@ -39,6 +39,8 @@
 # hard denylist — re-ignored even inside allowed dirs
 **/logs/
 auth*
+mcp-auth*
+mcp.log*
 *token*
 *secret*
 *credential*
