@@ -3,12 +3,12 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-27T08:34:14.907Z",
+      "fetchedAt": "2026-11-27T09:06:31.221Z",
       "models": [
         {
-          "id": "opencode/gpt-transcribe",
-          "name": "opencode/gpt-transcribe",
-          "reasoning": false,
+          "id": "opencode/deepseek-v4.1-flash-free",
+          "name": "opencode/deepseek-v4.1-flash-free",
+          "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -26,56 +26,8 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "opencode/grok-voice-transcribe-2.0",
-          "name": "opencode/grok-voice-transcribe-2.0",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "opencode/seaglass-alpha-free",
-          "name": "opencode/seaglass-alpha-free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
+          "contextWindow": 1000000,
+          "maxTokens": 128000
         },
         {
           "id": "antigravity/gemini-4-hydrogen-sonar",
@@ -124,198 +76,6 @@
           },
           "contextWindow": 1000000,
           "maxTokens": 128000
-        },
-        {
-          "id": "kilocode/inclusionai/lingsante-3.1-air-vl",
-          "name": "kilocode/inclusionai/lingsante-3.1-air-vl",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/upstage/solar-mini-4-5",
-          "name": "kilocode/upstage/solar-mini-4-5",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/upstage/solar-pro-4-contributor",
-          "name": "kilocode/upstage/solar-pro-4-contributor",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/xiaomi/mimo-v2.6-flash-mopd",
-          "name": "kilocode/xiaomi/mimo-v2.6-flash-mopd",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/recursive/flint-v1.0:free",
-          "name": "kilocode/recursive/flint-v1.0:free",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/nvidia/nemotron-3.5-super-vl:free",
-          "name": "kilocode/nvidia/nemotron-3.5-super-vl:free",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/tngtech/deepseek-r1t2-chimera",
-          "name": "kilocode/tngtech/deepseek-r1t2-chimera",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 128000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "kilocode/google/gemini-4-neon-fast",
-          "name": "kilocode/google/gemini-4-neon-fast",
-          "reasoning": false,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 200000,
-          "maxTokens": 64000
         },
         {
           "id": "nvidia/poolside/laguna-xs-2.1",
@@ -368,30 +128,6 @@
         {
           "id": "openrouter/@preset/deepseek-v4-1-flash-1017-cheapest",
           "name": "Preset: Deepseek v4.1 Flash 1017 Cheapest",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 943718
-        },
-        {
-          "id": "openrouter/@preset/deepseek-v4-flash-0731-cheapest",
-          "name": "Preset: Deepseek V4 Flash 0731 Cheapest",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
