@@ -3,11 +3,11 @@
   "providers": {
     "9router": {
       "fingerprint": "[\"https://ai.lun.web.id/v1\",\"openai-completions\",\"sk-5ea58f779b8018d9-1uzqrx-36fd63d7\",{},{}]",
-      "fetchedAt": "2026-11-21T11:37:42.536Z",
+      "fetchedAt": "2026-11-27T09:06:31.221Z",
       "models": [
         {
-          "id": "opencode/deepseek-v4.1-flash",
-          "name": "opencode/deepseek-v4.1-flash",
+          "id": "opencode/deepseek-v4.1-flash-free",
+          "name": "opencode/deepseek-v4.1-flash-free",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -54,56 +54,8 @@
           "maxTokens": 64000
         },
         {
-          "id": "antigravity/gemini-3.8-flash-tiered",
-          "name": "antigravity/gemini-3.8-flash-tiered",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 65536
-        },
-        {
           "id": "antigravity/claude-opus-5-5-low",
           "name": "antigravity/claude-opus-5-5-low",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1000000,
-          "maxTokens": 128000
-        },
-        {
-          "id": "commandcode/deepseek/deepseek-v4.1-flash",
-          "name": "commandcode/deepseek/deepseek-v4.1-flash",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -150,8 +102,32 @@
           "maxTokens": 64000
         },
         {
-          "id": "deepseek/deepseek-flash",
-          "name": "DeepSeek-V4.1-Flash",
+          "id": "groq/openai/gpt-oss-120b",
+          "name": "GPT OSS 120B",
+          "reasoning": false,
+          "thinkingLevelMap": {
+            "xhigh": null,
+            "max": null
+          },
+          "compat": {
+            "supportsDeveloperRole": false
+          },
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 65536
+        },
+        {
+          "id": "openrouter/@preset/deepseek-v4-1-flash-1017-cheapest",
+          "name": "Preset: Deepseek v4.1 Flash 1017 Cheapest",
           "reasoning": true,
           "thinkingLevelMap": {
             "xhigh": null,
@@ -171,36 +147,12 @@
             "cacheWrite": 0
           },
           "contextWindow": 1048576,
-          "maxTokens": 393216
-        },
-        {
-          "id": "groq/qwen/qwen3.8-27b",
-          "name": "Qwen/Qwen3.8-27B",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "xhigh": null,
-            "max": null
-          },
-          "compat": {
-            "supportsDeveloperRole": false
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 16384
+          "maxTokens": 943718
         },
         {
           "id": "claude-opus-5-5-low",
           "name": "claude-opus-5-5-low",
-          "reasoning": true,
+          "reasoning": false,
           "thinkingLevelMap": {
             "xhigh": null,
             "max": null
@@ -219,7 +171,7 @@
             "cacheWrite": 0
           },
           "contextWindow": 1000000,
-          "maxTokens": 128000
+          "maxTokens": 65536
         }
       ]
     },
